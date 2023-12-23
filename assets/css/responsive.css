@@ -1,0 +1,118 @@
+/* XL Device :1200px. */
+/* @media (min-width: 1200px) and (max-width: 1500px) {
+} */
+
+/* LG Device :992px. */
+/* @media (min-width: 992px) and (max-width: 1200px) {
+} */
+
+/* MD Device :768px. */
+/* @media (min-width: 768px) and (max-width: 991px) { */
+@media (max-width: 991px) {
+  .header-nav .navbar > .container,
+  .navbar > .container-fluid,
+  .navbar > .container-lg,
+  .navbar > .container-md,
+  .navbar > .container-sm,
+  .navbar > .container-xl,
+  .navbar > .container-xxl {
+    justify-content: end;
+  }
+  .header-nav .navbar-toggler {
+    position: absolute;
+    top: -40px;
+  }
+  .banner-details {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .banner-section {
+    padding-bottom: 500px;
+  }
+
+  .brand {
+    padding-top: 250px;
+  }
+
+  .banner-img img.pattern {
+    top: 490px;
+  }
+
+  .promo {
+    padding: 50px 0 75px 0;
+  }
+
+  .promo-single {
+    display: inherit;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+
+  .promo-icon {
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .footer-wedget {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .footer-wedget .logo {
+    margin: auto;
+    margin-bottom: 40px;
+  }
+
+  .footer-wedget p {
+    margin: auto;
+    margin-bottom: 40px;
+    max-width: inherit;
+  }
+
+  .newsletter input {
+    width: 100% !important;
+    margin-bottom: 10px;
+  }
+  .copy-right {
+    padding-top: 50px;
+    padding-bottom: 36px;
+  }
+}
+
+/* Extra small Device. */
+@media (max-width: 767px) {
+}
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+}
+
+/* retina query */
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 991.98px),
+  only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 991.98px),
+  only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 991.98px),
+  only screen and (min-device-pixel-ratio: 2) and (max-width: 991.98px),
+  only screen and (min-resolution: 192dpi) and (max-width: 991.98px),
+  only screen and (min-resolution: 2dppx) and (max-width: 991.98px) {
+  .logo .standard-logo {
+    display: none;
+  }
+  .logo .retina-logo {
+    display: inline-block;
+  }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min--moz-device-pixel-ratio: 2),
+  only screen and (-o-min-device-pixel-ratio: 2/1),
+  only screen and (min-device-pixel-ratio: 2),
+  only screen and (min-resolution: 192dpi),
+  only screen and (min-resolution: 2dppx) {
+  .logo .standard-logo {
+    display: none;
+  }
+  .logo .retina-logo {
+    display: inline-block;
+  }
+}

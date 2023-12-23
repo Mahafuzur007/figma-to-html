@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+
+h2 {
+  font-size: 60px;
+  line-height: 73px;
+  font-weight: 500;
+  color: #1d1d1f;
+}
+
+p {
+  color: #1d1d1f;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* header part */
+.full-bg {
+  background: #f3fcf7;
+  padding: 30px 0 30px 0;
+}
+.logo {
+  max-width: 120px;
+}
+
+.header-nav .navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end;
+}
+
+.header-nav nav ul li a {
+  color: #1d1d1f;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+}
+
+.header-nav nav ul li a:hover {
+  color: #06c167;
+}
+
+.header-nav nav ul li a.active {
+  color: #06c167;
+}
+
+.full-btn {
+  background: #06c167;
+  border-radius: 0;
+  color: #fff;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 15px 30px;
+}
+
+.full-btn:hover {
+  color: #06c167;
+}
+
+/* banner section */
+
+.banner-section {
+  background: #f3fcf7;
+  padding: 74px 0 131px 0;
+}
+
+.banner-title h2 {
+  font-size: 80px;
+  line-height: 91px;
+  font-weight: 600;
+}
+
+.banner-details p {
+  color: rgba(29, 29, 31, 0.75);
+  max-width: 533px;
+  margin-bottom: 30px;
+}
+
+.banner-img {
+  width: 468px;
+  position: relative;
+}
+
+.banner-img img {
+  border-radius: 10px;
+  position: absolute;
+}
+
+.banner-img img.pattern {
+  width: 174px;
+  height: 174px;
+  top: 494px;
+  right: 0;
+}
+
+/* brand section */
+.brand {
+  padding: 46px 0;
+}
+
+.brand-logo {
+  width: 80%;
+}
+
+/* Promo Section */
+.promo {
+  padding: 150px 0 75px 0;
+}
+
+.promo-single {
+  display: flex;
+  align-items: center;
+}
+
+.promo-icon {
+  height: 70px;
+  width: 70px;
+  background: #f3fcf7;
+  border-radius: 10px;
+  line-height: 70px;
+  text-align: center;
+}
+
+.promo-icon i {
+  color: #06c167;
+  font-size: 30px;
+  line-height: 70px;
+}
+
+.promo-info {
+  margin-left: 22px;
+}
+
+.promo-info h4 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #1d1d1f;
+  line-height: 21.78px;
+  margin-bottom: 7px;
+}
+
+.promo-info p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+  opacity: 75%;
+}
+
+.promo-details {
+  padding: 57.5px 0;
+  border-top: 1.5px solid #70707030;
+  border-bottom: 1.5px solid #70707030;
+}
+
+/* footer section */
+.footer-wedget p {
+  max-width: 284px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.social-icon {
+  margin-left: -9px;
+}
+
+.social-icon a {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  display: inline-block;
+  text-align: center;
+}
+
+.social-icon a i {
+  color: #1d1d1f;
+  font-size: 18px;
+}
+
+.footer-wedget h3 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  color: #1d1d1f;
+  margin-bottom: 40px;
+}
+
+.footer-wedget ul li {
+  list-style: none;
+}
+
+.footer-wedget ul li a {
+  text-decoration: none;
+  color: #1d1d1f;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 40px;
+  padding: 8px 0;
+}
+
+.newsletter input[type="email"] {
+  width: 66%;
+  height: 50px;
+  padding: 12px;
+  background: #f0f1ec;
+  border: none;
+}
+
+.newsletter input[type="submit"] {
+  width: 30%;
+  padding: 13px 0;
+  height: 50px;
+  background: #06c167;
+  border: none;
+  color: white;
+  font-weight: 500;
+  line-height: 17px;
+  font-size: 14px;
+}
+
+.copy-right {
+  padding-top: 96px;
+  padding-bottom: 36px;
+}
